@@ -1,0 +1,34 @@
+    1  git config --global user.name "Oksana Sokyrko"
+    2  git config --global user.email "oksuneka@gmail.com"
+    3  git clone https://github.com/0syn/HW_10.git
+    4  cd /c/Users/Оксана/Desktop/QA35/HW_10
+    5  touch text_ignore.txt
+    6  git status text_ignore.txt
+    7  git status
+    8  git add .
+    9  git add .gitignore
+   10  git status
+   11  git commit -m "first commit"
+   12  git push
+   13  touch main_test.txt
+   14  git add .
+   15  git commit -m "second commit"
+   16  git branch
+   17  git checkout -b develop
+   18  git branch
+   19  touch develop_test.txt
+   20  git add .
+   21  git commit -m "third commit"
+   22  git status
+   23  git add .
+   24  git status
+   25  git status
+   26  git add .
+   27  git status
+   28  git commit -m "fourth commit"
+   29  git checkout -b HW_10
+   30  git branch
+   31  git checkout HW_10
+   32  git merge develop
+   33  git log
+   34  history > command_list.csv
